@@ -3,18 +3,24 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of deploying a vitual private cloud in the AWS console with subnets that will be composed of 3 public subnets and 3 private subnets. Each subnet will be home to a list of IP addresses with some having visibility to the internet through the Internet Gateway. Those Ip could be used for uses cases such as provision an Ec2 instance ready to be launch.
+
 <br />
-
-
-<h2>Languages and Utilities Used</h2>
-
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>VPC</b>
+
+
+<h2>Services and utility Used</h2>
+
+- <b>VPC</b> 
+- <b>Subnets</b>
+- <b>Internet Gateway (IGW)</b>
+- <b>Hypervisor</b>
+- <b>Security Groups</b>
+
+
 
 <h2>Program walk-through:</h2>
 
